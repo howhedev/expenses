@@ -1,0 +1,43 @@
+.tabs {
+  grid-area: radio;
+  display: flex;
+  position: relative;
+}
+.tabs * {
+  z-index: 2;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3em;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+}
+
+input[type="radio"]:checked + label {
+  color: var(--fontcolor-white);
+}
+
+input[id="radio-2"]:checked ~ .glider {
+  transform: translateX(0%);
+}
+
+input[id="radio-3"]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
+.glider {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  transition: 0.25s ease-out;
+}

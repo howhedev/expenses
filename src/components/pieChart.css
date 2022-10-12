@@ -1,0 +1,49 @@
+.pieChart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donut {
+  width: 18em;
+  height: 18em;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--pie-chart-color);
+  border-radius: 50%;
+  border: 1.5em solid var(--bg-main);
+}
+
+.leftoverHeading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.6em;
+  color: var(--green-color);
+}
+
+.incomeHeading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.8em;
+  color: var(--fontcolor-secondary);
+}
+
+.over {
+  color: var(--red-color);
+}
+
+@media only screen and (max-height: 820px) {
+  .donut {
+    width: 14em;
+    height: 14em;
+  }
+  .leftoverHeading {
+    font-size: 1.2em;
+  }
+}

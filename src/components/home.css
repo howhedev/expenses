@@ -1,0 +1,29 @@
+.primaryButton {
+  color: var(--fontcolor-white);
+  font-weight: 500;
+  padding: 1em 5em;
+  background: var(--color-ascend-gradient);
+  border: var(--stroke-active) solid 0.1em;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  scale: 1.1;
+}
+
+.graphRadio {
+  color: var(--fontcolor-primary);
+  border-bottom: var(--stroke-active) solid 0.2em;
+  cursor: pointer;
+}
+
+.home-screen {
+  background-color: var(--bg-main);
+}
+
+@media only screen and (min-width: 912px) {
+  .home-screen {
+    width: 50vw;
+  }
+}

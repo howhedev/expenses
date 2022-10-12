@@ -1,0 +1,14 @@
+.greetings {
+  height: 25vh;
+  padding: 3em 2em;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.your-spendings-user {
+  color: var(--fontcolor-primary);
+}
+
+.your-spendings-user p {
+  color: var(--fontcolor-secondary);
+}

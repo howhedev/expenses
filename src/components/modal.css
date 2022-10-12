@@ -1,0 +1,127 @@
+.temp {
+  background-color: var(--bg-main);
+  width: 100vw;
+  height: 100vh;
+}
+
+.modalBackground {
+  background-color: var(--bg-main);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 912px;
+}
+
+.topContainer {
+  height: 20vh;
+  padding: 2em 2em;
+  color: var(--fontcolor-primary);
+  display: flex;
+}
+
+.titleCloseBtn {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+}
+
+.titleCloseBtn button {
+  color: var(--fontcolor-primary);
+  background-color: var(--bg-main);
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+  margin-right: 1em;
+  font-size: 2em;
+}
+
+.titleCloseBtn:hover button {
+  margin-right: 0.5em;
+}
+
+.modalBackground > h4 {
+  color: var(--fontcolor-primary);
+  align-self: center;
+}
+
+.modalContainer {
+  outline: 2px solid var(--stroke-color);
+
+  border-radius: 25px;
+  margin: 1em 1em 2em;
+  background-color: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+.modalInputs {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.textInputs {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "radio radio"
+    "description description"
+    "date amount";
+  gap: 1em;
+}
+
+.description {
+  grid-area: description;
+}
+.date {
+  grid-area: date;
+  cursor: pointer;
+}
+.amount {
+  grid-area: amount;
+}
+
+.textInputs > * {
+  color: var(--fontcolor-secondary);
+  background-color: var(--bg-main);
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+/* Disable arrows in number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input {
+  padding: 1em 1em;
+}
+
+.modalInputs > h5 {
+  color: var(--fontcolor-secondary);
+  font-weight: 200;
+  margin-top: 5em;
+  margin-bottom: 1em;
+  align-self: center;
+}
+
+.additionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2em;
+  margin-top: 3em;
+  padding: 1em;
+}

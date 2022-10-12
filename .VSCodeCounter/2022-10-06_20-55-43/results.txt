@@ -1,0 +1,88 @@
+Date : 2022-10-06 20:55:43
+Directory : c:\Porfolio\c.codes\expenses
+Total : 51 files,  26250 codes, 45 comments, 274 blanks, all 26569 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          4 |     24,598 |          0 |          4 |     24,602 |
+| JavaScript React |         14 |        796 |         11 |         95 |        902 |
+| CSS              |         14 |        589 |          8 |         98 |        695 |
+| JavaScript       |          5 |        173 |          3 |         31 |        207 |
+| Markdown         |          1 |         38 |          0 |         33 |         71 |
+| XML              |         12 |         36 |          0 |         12 |         48 |
+| HTML             |          1 |         20 |         23 |          1 |         44 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                |         51 |     26,250 |         45 |        274 |     26,569 |
+| public                                                           |          2 |         45 |         23 |          2 |         70 |
+| src                                                              |         46 |      1,682 |         22 |        237 |      1,941 |
+| src\common                                                       |          6 |        264 |          0 |         27 |        291 |
+| src\components                                                   |         18 |      1,015 |         19 |        140 |      1,174 |
+| src\contexts                                                     |          1 |         34 |          0 |          7 |         41 |
+| src\hooks                                                        |          2 |         58 |          0 |         16 |         74 |
+| src\icons                                                        |         12 |         36 |          0 |         12 |         48 |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                         | language         | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Porfolio\c.codes\expenses\README.md                           | Markdown         |         38 |          0 |         33 |         71 |
+| c:\Porfolio\c.codes\expenses\package-lock.json                   | JSON             |     24,441 |          0 |          1 |     24,442 |
+| c:\Porfolio\c.codes\expenses\package.json                        | JSON             |         44 |          0 |          1 |         45 |
+| c:\Porfolio\c.codes\expenses\public\index.html                   | HTML             |         20 |         23 |          1 |         44 |
+| c:\Porfolio\c.codes\expenses\public\manifest.json                | JSON             |         25 |          0 |          1 |         26 |
+| c:\Porfolio\c.codes\expenses\src\App.css                         | CSS              |         24 |          0 |          6 |         30 |
+| c:\Porfolio\c.codes\expenses\src\App.js                          | JavaScript       |         29 |          0 |          5 |         34 |
+| c:\Porfolio\c.codes\expenses\src\common\categories.css           | CSS              |         35 |          0 |          6 |         41 |
+| c:\Porfolio\c.codes\expenses\src\common\categories.jsx           | JavaScript React |        122 |          0 |          4 |        126 |
+| c:\Porfolio\c.codes\expenses\src\common\radioButtons.css         | CSS              |         37 |          0 |          7 |         44 |
+| c:\Porfolio\c.codes\expenses\src\common\radioButtons.jsx         | JavaScript React |         28 |          0 |          3 |         31 |
+| c:\Porfolio\c.codes\expenses\src\common\tooltip.css              | CSS              |         33 |          0 |          4 |         37 |
+| c:\Porfolio\c.codes\expenses\src\common\tooltip.jsx              | JavaScript React |          9 |          0 |          3 |         12 |
+| c:\Porfolio\c.codes\expenses\src\components\dropdown.css         | CSS              |         42 |          0 |          8 |         50 |
+| c:\Porfolio\c.codes\expenses\src\components\dropdown.jsx         | JavaScript React |         62 |          3 |          6 |         71 |
+| c:\Porfolio\c.codes\expenses\src\components\expenseCard.css      | CSS              |         92 |          7 |         15 |        114 |
+| c:\Porfolio\c.codes\expenses\src\components\expenseCard.jsx      | JavaScript React |         65 |          0 |          7 |         72 |
+| c:\Porfolio\c.codes\expenses\src\components\graphSection.css     | CSS              |         53 |          0 |          9 |         62 |
+| c:\Porfolio\c.codes\expenses\src\components\graphSection.jsx     | JavaScript React |        198 |          4 |         18 |        220 |
+| c:\Porfolio\c.codes\expenses\src\components\greetings.css        | CSS              |         12 |          0 |          3 |         15 |
+| c:\Porfolio\c.codes\expenses\src\components\greetings.jsx        | JavaScript React |         12 |          0 |          2 |         14 |
+| c:\Porfolio\c.codes\expenses\src\components\home.css             | CSS              |         17 |          0 |          3 |         20 |
+| c:\Porfolio\c.codes\expenses\src\components\home.jsx             | JavaScript React |         18 |          0 |          6 |         24 |
+| c:\Porfolio\c.codes\expenses\src\components\modal.css            | CSS              |        108 |          1 |         15 |        124 |
+| c:\Porfolio\c.codes\expenses\src\components\modal.jsx            | JavaScript React |         95 |          0 |         12 |        107 |
+| c:\Porfolio\c.codes\expenses\src\components\navBar.css           | CSS              |         34 |          0 |          5 |         39 |
+| c:\Porfolio\c.codes\expenses\src\components\navBar.jsx           | JavaScript React |         29 |          0 |          3 |         32 |
+| c:\Porfolio\c.codes\expenses\src\components\pieChart.css         | CSS              |         41 |          0 |          7 |         48 |
+| c:\Porfolio\c.codes\expenses\src\components\pieChart.jsx         | JavaScript React |         31 |          4 |          6 |         41 |
+| c:\Porfolio\c.codes\expenses\src\components\transactionsList.css | CSS              |         37 |          0 |          6 |         43 |
+| c:\Porfolio\c.codes\expenses\src\components\transactionsList.jsx | JavaScript React |         69 |          0 |          9 |         78 |
+| c:\Porfolio\c.codes\expenses\src\contexts\expenseContext.js      | JavaScript       |         34 |          0 |          7 |         41 |
+| c:\Porfolio\c.codes\expenses\src\hooks\useLocalStorage.jsx       | JavaScript React |         16 |          0 |          5 |         21 |
+| c:\Porfolio\c.codes\expenses\src\hooks\useLongPress.jsx          | JavaScript React |         42 |          0 |         11 |         53 |
+| c:\Porfolio\c.codes\expenses\src\icons\addNew.svg                | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\food.svg                  | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\gas.svg                   | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\graphs.svg                | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\home.svg                  | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\main.svg                  | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\mic.svg                   | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\other.svg                 | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\shop.svg                  | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\streaming.svg             | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\withdraw.svg              | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\icons\work.svg                  | XML              |          3 |          0 |          1 |          4 |
+| c:\Porfolio\c.codes\expenses\src\index.css                       | CSS              |         24 |          0 |          4 |         28 |
+| c:\Porfolio\c.codes\expenses\src\index.js                        | JavaScript       |         15 |          3 |          3 |         21 |
+| c:\Porfolio\c.codes\expenses\src\placeholderYear.json            | JSON             |         88 |          0 |          1 |         89 |
+| c:\Porfolio\c.codes\expenses\src\reportWebVitals.js              | JavaScript       |         12 |          0 |          2 |         14 |
+| c:\Porfolio\c.codes\expenses\src\utils.js                        | JavaScript       |         83 |          0 |         14 |         97 |
+| Total                                                            |                  |     26,250 |         45 |        274 |     26,569 |
++------------------------------------------------------------------+------------------+------------+------------+------------+------------+

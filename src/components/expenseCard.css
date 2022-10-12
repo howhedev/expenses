@@ -1,0 +1,153 @@
+.expenseCard-container {
+  position: relative;
+  z-index: 0;
+  background-color: var(--bg-main);
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 1em;
+  cursor: pointer;
+}
+
+/*START OF DELETE SECTION*/
+
+/* @keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+.expenseCard-container:active:before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: var(--bg-main);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: conic-gradient(
+    transparent,
+    var(--red-color),
+    transparent 30%
+  );
+  animation: rotate 2s linear infinite;
+}
+
+.expenseCard-container:active:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: var(--bg-secondary);
+  border-radius: 50px;
+} */
+
+.expenseCard-container:active {
+  color: #fff;
+  box-shadow: 0 0 10px var(--red-color), 0 0 40px var(--red-color),
+    0 0 80px var(--red-color);
+  transition-delay: 1.8s;
+  animation: delete 0.2s linear;
+  animation-delay: 1.8s;
+}
+
+.expenseCard-container .deleteHandler {
+  position: absolute;
+  inset: 0;
+}
+
+.expenseCard-container .deleteHandler:active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 60px;
+  background: linear-gradient(
+    transparent,
+    var(--red-color),
+    var(--red-color),
+    transparent
+  );
+  z-index: -2;
+  animation: rotate 2.3s linear infinite;
+}
+.expenseCard-container .deleteHandler:active::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50px;
+  background: var(--bg-main);
+  z-index: -1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes delete {
+  100% {
+    transform: scale(0);
+  }
+}
+/*END OF DELETE SECTION*/
+
+.expenseCard-data {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 1.5em;
+  fill: var(--fontcolor-secondary);
+}
+
+.expenseIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--bg-secondary);
+  border-radius: 50%;
+  margin-right: 0.8em;
+  border: var(--stroke-color) solid 0.1em;
+}
+
+.expenseTitle {
+  font-size: clamp(0.8em, 2.5vw, 0.9em);
+  color: var(--fontcolor-primary);
+}
+
+.expenseDate {
+  font-size: clamp(0.8em, 2.5vw, 0.9em);
+  color: var(--fontcolor-secondary);
+}
+
+.expensePrize {
+  margin-left: auto;
+  border: var(--stroke-secondary) solid 0.1em;
+  padding: 1em 1.5em;
+  border-radius: 50px;
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.red {
+  color: var(--red-color);
+}

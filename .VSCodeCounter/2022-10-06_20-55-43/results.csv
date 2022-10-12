@@ -1,0 +1,53 @@
+"filename", "language", "JSON", "JavaScript", "CSS", "XML", "Markdown", "JavaScript React", "HTML", "comment", "blank", "total"
+"c:\Porfolio\c.codes\expenses\README.md", "Markdown", 0, 0, 0, 0, 38, 0, 0, 0, 33, 71
+"c:\Porfolio\c.codes\expenses\package-lock.json", "JSON", 24441, 0, 0, 0, 0, 0, 0, 0, 1, 24442
+"c:\Porfolio\c.codes\expenses\package.json", "JSON", 44, 0, 0, 0, 0, 0, 0, 0, 1, 45
+"c:\Porfolio\c.codes\expenses\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 20, 23, 1, 44
+"c:\Porfolio\c.codes\expenses\public\manifest.json", "JSON", 25, 0, 0, 0, 0, 0, 0, 0, 1, 26
+"c:\Porfolio\c.codes\expenses\src\App.css", "CSS", 0, 0, 24, 0, 0, 0, 0, 0, 6, 30
+"c:\Porfolio\c.codes\expenses\src\App.js", "JavaScript", 0, 29, 0, 0, 0, 0, 0, 0, 5, 34
+"c:\Porfolio\c.codes\expenses\src\common\categories.css", "CSS", 0, 0, 35, 0, 0, 0, 0, 0, 6, 41
+"c:\Porfolio\c.codes\expenses\src\common\categories.jsx", "JavaScript React", 0, 0, 0, 0, 0, 122, 0, 0, 4, 126
+"c:\Porfolio\c.codes\expenses\src\common\radioButtons.css", "CSS", 0, 0, 37, 0, 0, 0, 0, 0, 7, 44
+"c:\Porfolio\c.codes\expenses\src\common\radioButtons.jsx", "JavaScript React", 0, 0, 0, 0, 0, 28, 0, 0, 3, 31
+"c:\Porfolio\c.codes\expenses\src\common\tooltip.css", "CSS", 0, 0, 33, 0, 0, 0, 0, 0, 4, 37
+"c:\Porfolio\c.codes\expenses\src\common\tooltip.jsx", "JavaScript React", 0, 0, 0, 0, 0, 9, 0, 0, 3, 12
+"c:\Porfolio\c.codes\expenses\src\components\dropdown.css", "CSS", 0, 0, 42, 0, 0, 0, 0, 0, 8, 50
+"c:\Porfolio\c.codes\expenses\src\components\dropdown.jsx", "JavaScript React", 0, 0, 0, 0, 0, 62, 0, 3, 6, 71
+"c:\Porfolio\c.codes\expenses\src\components\expenseCard.css", "CSS", 0, 0, 92, 0, 0, 0, 0, 7, 15, 114
+"c:\Porfolio\c.codes\expenses\src\components\expenseCard.jsx", "JavaScript React", 0, 0, 0, 0, 0, 65, 0, 0, 7, 72
+"c:\Porfolio\c.codes\expenses\src\components\graphSection.css", "CSS", 0, 0, 53, 0, 0, 0, 0, 0, 9, 62
+"c:\Porfolio\c.codes\expenses\src\components\graphSection.jsx", "JavaScript React", 0, 0, 0, 0, 0, 198, 0, 4, 18, 220
+"c:\Porfolio\c.codes\expenses\src\components\greetings.css", "CSS", 0, 0, 12, 0, 0, 0, 0, 0, 3, 15
+"c:\Porfolio\c.codes\expenses\src\components\greetings.jsx", "JavaScript React", 0, 0, 0, 0, 0, 12, 0, 0, 2, 14
+"c:\Porfolio\c.codes\expenses\src\components\home.css", "CSS", 0, 0, 17, 0, 0, 0, 0, 0, 3, 20
+"c:\Porfolio\c.codes\expenses\src\components\home.jsx", "JavaScript React", 0, 0, 0, 0, 0, 18, 0, 0, 6, 24
+"c:\Porfolio\c.codes\expenses\src\components\modal.css", "CSS", 0, 0, 108, 0, 0, 0, 0, 1, 15, 124
+"c:\Porfolio\c.codes\expenses\src\components\modal.jsx", "JavaScript React", 0, 0, 0, 0, 0, 95, 0, 0, 12, 107
+"c:\Porfolio\c.codes\expenses\src\components\navBar.css", "CSS", 0, 0, 34, 0, 0, 0, 0, 0, 5, 39
+"c:\Porfolio\c.codes\expenses\src\components\navBar.jsx", "JavaScript React", 0, 0, 0, 0, 0, 29, 0, 0, 3, 32
+"c:\Porfolio\c.codes\expenses\src\components\pieChart.css", "CSS", 0, 0, 41, 0, 0, 0, 0, 0, 7, 48
+"c:\Porfolio\c.codes\expenses\src\components\pieChart.jsx", "JavaScript React", 0, 0, 0, 0, 0, 31, 0, 4, 6, 41
+"c:\Porfolio\c.codes\expenses\src\components\transactionsList.css", "CSS", 0, 0, 37, 0, 0, 0, 0, 0, 6, 43
+"c:\Porfolio\c.codes\expenses\src\components\transactionsList.jsx", "JavaScript React", 0, 0, 0, 0, 0, 69, 0, 0, 9, 78
+"c:\Porfolio\c.codes\expenses\src\contexts\expenseContext.js", "JavaScript", 0, 34, 0, 0, 0, 0, 0, 0, 7, 41
+"c:\Porfolio\c.codes\expenses\src\hooks\useLocalStorage.jsx", "JavaScript React", 0, 0, 0, 0, 0, 16, 0, 0, 5, 21
+"c:\Porfolio\c.codes\expenses\src\hooks\useLongPress.jsx", "JavaScript React", 0, 0, 0, 0, 0, 42, 0, 0, 11, 53
+"c:\Porfolio\c.codes\expenses\src\icons\addNew.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\food.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\gas.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\graphs.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\home.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\main.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\mic.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\other.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\shop.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\streaming.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\withdraw.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\icons\work.svg", "XML", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Porfolio\c.codes\expenses\src\index.css", "CSS", 0, 0, 24, 0, 0, 0, 0, 0, 4, 28
+"c:\Porfolio\c.codes\expenses\src\index.js", "JavaScript", 0, 15, 0, 0, 0, 0, 0, 3, 3, 21
+"c:\Porfolio\c.codes\expenses\src\placeholderYear.json", "JSON", 88, 0, 0, 0, 0, 0, 0, 0, 1, 89
+"c:\Porfolio\c.codes\expenses\src\reportWebVitals.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Porfolio\c.codes\expenses\src\utils.js", "JavaScript", 0, 83, 0, 0, 0, 0, 0, 0, 14, 97
+"Total", "-", 24598, 173, 589, 36, 38, 796, 20, 45, 274, 26569

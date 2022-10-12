@@ -1,0 +1,39 @@
+.categorySelection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.categoryIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 4em;
+  height: 4em;
+  padding: 1em;
+  background-color: var(--bg-main);
+  border-radius: 23px;
+  border: var(--stroke-color) solid 0.1em;
+  cursor: pointer;
+}
+
+.categoryIcon:hover .categoryLogo {
+  scale: 0.9;
+}
+
+.categoryLogo {
+  width: 5em;
+  fill: var(--fontcolor-secondary);
+}
+
+.activeCategory {
+  background: var(--color-ascend-gradient);
+  border: var(--stroke-active) solid 0.1em;
+}
+
+.activeLogo {
+  fill: var(--fontcolor-white);
+}

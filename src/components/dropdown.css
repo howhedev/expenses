@@ -1,0 +1,53 @@
+.main {
+  cursor: pointer;
+}
+
+.DropDownContainer {
+  width: 2em;
+}
+
+.DropDownHeader {
+  font-size: 0.8rem;
+  color: var(--fontcolor-secondary);
+}
+.DropDownHeader:hover {
+  color: var(--fontcolor-primary);
+}
+.DropDownListContainer {
+  position: absolute;
+
+  z-index: 2;
+}
+
+.right {
+  right: 1em;
+}
+
+.DropDownList {
+  margin-top: 1em;
+  background: var(--bg-main);
+  border: 0.15em solid var(--stroke-active);
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: var(--fontcolor-secondary);
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 14em;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.ListItem {
+  list-style: none;
+  flex-grow: 1;
+  padding: 1.2em;
+  max-width: 5em;
+}
+
+.ListItem:hover {
+  background: var(--color-ascend-gradient);
+  border-radius: 9px;
+
+  color: var(--fontcolor-white);
+}

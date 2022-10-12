@@ -1,0 +1,36 @@
+.tooltip {
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0.4;
+  padding: 0.5em;
+  background: var(--bg-main);
+  color: var(--fontcolor-primary);
+  position: absolute;
+  top: -100%;
+  border-radius: 9px;
+  font: 16px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+}
+
+.categoryIcon:hover .tooltip {
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.3s linear;
+  animation: odsoky 1s ease-in-out infinite alternate;
+}
+@keyframes odsoky {
+  0% {
+    transform: translateY(6px);
+  }
+
+  100% {
+    transform: translateY(1px);
+  }
+}
+
+.bottom {
+  top: 115%;
+  left: 5%;
+}
