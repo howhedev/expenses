@@ -32,7 +32,7 @@ function App() {
   });
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/expenses">
       <div className="app" data-theme={theme}>
         <ThemeToggle theme={theme} onThemeChange={onThemeChange} />
         {mobileView && (
