@@ -1,4 +1,5 @@
 {
+  "homepage": "https://howhedev/github.io/expenses",
   "name": "expenses",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +18,11 @@
     "react-svg": "^15.1.7",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+  
+  "scripts": {  
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
